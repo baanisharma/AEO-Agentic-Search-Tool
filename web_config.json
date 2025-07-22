@@ -1,0 +1,92 @@
+{
+  "app": {
+    "name": "AIO Search Tool",
+    "version": "1.0.0",
+    "description": "Comprehensive AI Visibility & Optimization Platform"
+  },
+  "theme": {
+    "primary_color": "#1B263B",
+    "secondary_color": "#24304A",
+    "accent_color": "#21D4FD",
+    "violet_color": "#6C63FF",
+    "success_color": "#00C851",
+    "warning_color": "#FFA500",
+    "danger_color": "#FF4444",
+    "text_color": "#23272F",
+    "background_color": "#F7F9FB"
+  },
+  "defaults": {
+    "brand_name": "AIO Search",
+    "industry": "digital marketing",
+    "keywords": ["AI content optimization", "LLM SEO", "semantic relevance"],
+    "competitors": ["Competitor A", "Competitor B", "Competitor C"],
+    "platforms": ["Perplexity"],
+    "max_queries": 5,
+    "max_pages": 100,
+    "days_back": 7
+  },
+  "modules": {
+    "dashboard": {
+      "enabled": true,
+      "refresh_interval": 300,
+      "show_alerts": true
+    },
+    "visibility": {
+      "enabled": true,
+      "default_platforms": ["Perplexity"],
+      "max_queries_per_category": 3
+    },
+    "content_optimizer": {
+      "enabled": true,
+      "supported_formats": ["txt", "md", "docx"],
+      "max_file_size": 10485760
+    },
+    "question_intelligence": {
+      "enabled": true,
+      "default_questions": 50,
+      "max_questions": 200
+    },
+    "site_ai_prep": {
+      "enabled": true,
+      "default_max_pages": 100,
+      "max_pages_limit": 500
+    },
+    "crawler_analytics": {
+      "enabled": true,
+      "supported_log_formats": ["log", "txt"],
+      "max_file_size": 52428800
+    },
+    "settings": {
+      "enabled": true,
+      "show_api_keys": false
+    }
+  },
+  "api": {
+    "openai": {
+      "required": false,
+      "description": "For advanced content optimization"
+    },
+    "airtop": {
+      "required": false,
+      "description": "For AI visibility monitoring"
+    }
+  },
+  "ui": {
+    "sidebar_width": "300px",
+    "chart_height": 300,
+    "table_page_size": 10,
+    "show_progress": true,
+    "enable_animations": true
+  },
+  "export": {
+    "formats": ["csv", "json", "pdf"],
+    "include_timestamps": true,
+    "compression": false
+  },
+  "security": {
+    "max_file_upload_size": 52428800,
+    "allowed_file_types": ["txt", "md", "docx", "log"],
+    "session_timeout": 3600,
+    "enable_csrf": true
+  }
+} 

@@ -1,0 +1,70 @@
+{
+    "content_optimizer": {
+      "file": "content/blog-post.md",
+      "brand": "AIO Search",
+      "keywords": [
+        "AI content optimization",
+        "LLM SEO",
+        "AI-native discoverability",
+        "AI citation",
+        "vector-based RAG"
+      ],
+      "industry": "digital marketing"
+    },
+    "visibility_checker": {
+      "brand": "AIO Search",
+      "competitors": [
+        "Clearscope",
+        "MarketMuse",
+        "Surfer SEO",
+        "Frase"
+      ],
+      "industry": "digital marketing",
+      "categories": [
+        "content optimization",
+        "SEO",
+        "AI marketing",
+        "content strategy"
+      ],
+      "prompts": 5
+    },
+    "question_mapper": {
+      "topics": [
+        "AI content optimization",
+        "LLM SEO",
+        "semantic search",
+        "content discoverability",
+        "AI visibility"
+      ],
+      "industry": "digital marketing",
+      "brand": "AIO Search",
+      "competitors": [
+        "Clearscope",
+        "MarketMuse",
+        "Surfer SEO",
+        "Frase"
+      ],
+      "features": [
+        "Content Optimizer",
+        "AI Visibility Checker",
+        "Question Mapper",
+        "AI Sitemap Generator"
+      ],
+      "questions": 100
+    },
+    "sitemap_generator": {
+      "url": "aiosearch.example.com",
+      "brand": "AIO Search",
+      "description": "AI Optimization Search Tool to help brands rank in LLM-generated answers",
+      "industry": "digital marketing",
+      "tagline": "Rank in AI answers, not just search engines",
+      "value_proposition": "Our AI Optimization tool helps brands get discovered and cited by AI assistants and large language models.",
+      "differentiators": [
+        "Optimizes content specifically for LLM citation patterns",
+        "Monitors brand visibility in AI-generated answers",
+        "Maps user intents and questions for AI-first content strategy",
+        "Creates AI-specific sitemaps for better discoverability"
+      ],
+      "max_pages": 100
+    }
+  }

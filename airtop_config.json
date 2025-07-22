@@ -1,0 +1,122 @@
+{
+  "platforms": {
+    "chatgpt": {
+      "enabled": true,
+      "url": "https://chat.openai.com/",
+      "login_required": true,
+      "web_search_enabled": true,
+      "rate_limit": 20,
+      "session_timeout": 60,
+      "selectors": {
+        "input_box": "textarea[data-id='root']",
+        "send_button": "button[data-testid='send-button']",
+        "response_container": "[data-testid='conversation-turn-2']",
+        "web_search_toggle": "[data-testid='web-search-toggle']",
+        "login_button": "button[data-testid='login-button']",
+        "email_input": "input[name='username']",
+        "password_input": "input[name='password']",
+        "continue_button": "button[type='submit']"
+      }
+    },
+    "claude": {
+      "enabled": true,
+      "url": "https://claude.ai/",
+      "login_required": true,
+      "web_search_enabled": true,
+      "rate_limit": 15,
+      "session_timeout": 60,
+      "selectors": {
+        "input_box": "div[contenteditable='true']",
+        "send_button": "button[aria-label='Send message']",
+        "response_container": ".claude-response",
+        "web_search_toggle": "[data-testid='web-search']",
+        "login_button": "button[data-testid='login']",
+        "email_input": "input[type='email']",
+        "password_input": "input[type='password']",
+        "continue_button": "button[type='submit']"
+      }
+    },
+    "gemini": {
+      "enabled": true,
+      "url": "https://gemini.google.com/",
+      "login_required": true,
+      "web_search_enabled": true,
+      "rate_limit": 25,
+      "session_timeout": 60,
+      "selectors": {
+        "input_box": "textarea[aria-label='Chat input']",
+        "send_button": "button[aria-label='Send message']",
+        "response_container": ".response-content",
+        "web_search_toggle": "[data-testid='web-search']",
+        "login_button": "button[data-testid='login']",
+        "email_input": "input[type='email']",
+        "password_input": "input[type='password']",
+        "continue_button": "button[type='submit']"
+      }
+    },
+    "perplexity": {
+      "enabled": true,
+      "url": "https://www.perplexity.ai/",
+      "login_required": false,
+      "web_search_enabled": true,
+      "rate_limit": 30,
+      "session_timeout": 30,
+      "selectors": {
+        "input_box": "textarea[placeholder*='Ask anything']",
+        "send_button": "button[aria-label='Send']",
+        "response_container": ".response-text",
+        "web_search_results": ".search-results",
+        "focus_button": "button[aria-label='Focus']"
+      }
+    },
+    "you": {
+      "enabled": true,
+      "url": "https://you.com/",
+      "login_required": false,
+      "web_search_enabled": true,
+      "rate_limit": 25,
+      "session_timeout": 30,
+      "selectors": {
+        "input_box": "textarea[placeholder*='Ask anything']",
+        "send_button": "button[aria-label='Send']",
+        "response_container": ".response-content",
+        "web_search_results": ".search-results"
+      }
+    }
+  },
+  "browser_settings": {
+    "headless": false,
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "args": [
+      "--no-sandbox",
+      "--disable-blink-features=AutomationControlled",
+      "--disable-dev-shm-usage",
+      "--disable-web-security",
+      "--disable-features=VizDisplayCompositor"
+    ]
+  },
+  "simulation_settings": {
+    "max_response_time": 120,
+    "default_delay": 3,
+    "retry_attempts": 3,
+    "enable_web_search_by_default": true,
+    "save_screenshots": false,
+    "screenshot_path": "./screenshots/"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "airtop_simulator.log",
+    "max_file_size": "10MB",
+    "backup_count": 5
+  },
+  "output": {
+    "save_results": true,
+    "results_path": "./results/",
+    "export_format": ["csv", "json"],
+    "include_screenshots": false
+  }
+} 
