@@ -2,20 +2,6 @@
 
 **The complete backend for AI visibility monitoring and optimization.**
 
-Direct competitor to Profound with 4x more features at competitive pricing.
-
-## 🏆 Competitive Advantages
-
-| **Feature** | **Profound** | **AIO Search Tool** |
-|-------------|--------------|-------------------|
-| **AI Monitoring** | ✅ | ✅ |
-| **Content Optimization** | ❌ | ✅ **ADVANTAGE** |
-| **Question Prediction** | ❌ | ✅ **ADVANTAGE** |
-| **Site AI Preparation** | ❌ | ✅ **ADVANTAGE** |
-| **Real Browser Data** | ✅ | ✅ (Airtop) |
-| **Pricing** | Enterprise $$$$$ | Competitive $$ |
-
-**Positioning**: *"Don't just track AI mentions - dominate them"*
 
 ## 🚀 Quick Start
 
@@ -160,24 +146,6 @@ AIO Search Tool Backend
 └── 📚 Documentation & Guides
 ```
 
-## 🚀 Production Deployment
-
-### Quick Deploy Options:
-- **Railway**: `railway init && railway add`
-- **Render**: Connect GitHub → Deploy
-- **Docker**: Use provided Dockerfiles
-
-Deploy this FastAPI backend to any cloud provider that supports Python applications.
-
-## 📊 Market Opportunity
-
-**Profound charges enterprise prices for monitoring-only.**  
-**We offer 4x the features at competitive pricing.**
-
-### Suggested Pricing:
-- **Starter**: $99/month
-- **Professional**: $299/month  
-- **Enterprise**: $599/month
 
 ## 🎯 Integration Examples
 
@@ -248,23 +216,7 @@ CORS_ORIGINS=https://yourdomain.com
 - **Question Generation**: ~10-20 seconds
 - **Sitemap Generation**: ~20-40 seconds
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
 
 ## 📄 License
 
 This project is proprietary. All rights reserved.
-
-## 🎯 Next Steps
-
-1. **Deploy to production** using any cloud provider (Railway, Render, AWS, etc.)
-2. **Integrate with your existing tools** via the REST API
-3. **Set up monitoring** and analytics
-4. **Scale** based on usage patterns
-
-**You now have a complete Profound competitor backend!** 🚀
